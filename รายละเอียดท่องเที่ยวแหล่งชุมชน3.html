@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>รายละเอียดท่องเที่ยวแหล่งชุมชน</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa; /* พื้นหลังโทนสีอ่อน */
+      font-family: 'Arial', sans-serif;
+      color: #343a40;
+    }
+    .navbar {
+      background-color: #28a745; /* สีเขียวสด */
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: white;
+    }
+    .content-section {
+      padding: 60px 20px;
+    }
+    .content-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #28a745;
+    }
+    .content-section p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin-top: 20px;
+      text-align: justify;
+    }
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    .image-container img {
+      width: 100%;
+      transition: transform 0.5s;
+    }
+    .image-container:hover img {
+      transform: scale(1.1);
+    }
+    .btn-reserve {
+      background-color: #28a745;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .btn-reserve:hover {
+      background-color: #218838; /* สีเขียวเข้มเมื่อชี้ */
+    }
+    footer {
+      background-color: #28a745;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ชุมชนสีเขียว</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/Project/index.html">หน้าหลัก</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/Project/About.html">เกี่ยวกับ</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/Project/Projects.html">โครงการ</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/Project/Contact.html">ติดต่อเรา</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/Project/ที่พัก.html">ที่พัก</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/Project/ที่เที่ยว.html">ที่เที่ยว</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/Project/ท่องเที่ยวแหล่งชุมชน.html">ท่องเที่ยวแหล่งชุมชน</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Section -->
+  <section class="content-section">
+    <div class="container">
+      <h1>รายละเอียดท่องเที่ยวแหล่งชุมชน</h1>
+
+      <!-- Image -->
+      <div class="image-container mb-4">
+        <img src="https://cms.dmpcdn.com/travel/2023/04/18/d4a5da70-ddbd-11ed-8b80-bb0b6762077b_webp_original.jpg" alt="ท่องเที่ยวแหล่งชุมชน" class="img-fluid">
+      </div>
+
+      <!-- Description -->
+      <p>
+        การท่องเที่ยวแหล่งชุมชนเป็นการเปิดประสบการณ์ใหม่ให้กับนักท่องเที่ยว ที่สามารถสัมผัสกับวิถีชีวิตและวัฒนธรรมท้องถิ่น โดยมีโอกาสได้เรียนรู้เกี่ยวกับประเพณี การทำอาหาร และการใช้ชีวิตในชุมชนต่าง ๆ นักท่องเที่ยวจะได้รับการต้อนรับจากชาวบ้านอย่างอบอุ่น
+      </p>
+      <p>
+        แหล่งท่องเที่ยวเหล่านี้มีการจัดกิจกรรมที่สนุกสนานและสร้างสรรค์ เช่น การทำอาหารพื้นบ้าน การทอผ้า และการทำเครื่องดื่มสมุนไพร ที่ไม่เพียงแต่ให้ความรู้แก่ผู้เข้าชม ยังสร้างรายได้ให้กับชุมชนอีกด้วย
+      </p>
+
+      
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Greener Bangkok. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
